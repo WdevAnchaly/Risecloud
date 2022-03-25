@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap');
+
+
+body{
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+}
+
+.bg-drk{
+    background: #3a3f41;
+}
+h2{
+    font-size: 35px !important;
+    line-height: 50px !important;
+    text-align: center;
+}
+p{
+    font-size: 16px !important;
+    color: #333;
+    line-height: 1.5 !important;
+}
+.bg-gray{
+    background: #f2f2f2;
+    color: #000;
+}
