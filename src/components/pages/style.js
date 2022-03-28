@@ -23,7 +23,7 @@ a{
     font-family: 'Inter', sans-serif;
 }
 .fillBtn{
-    background-color: #fbb849;
+    background-color: #25a9de;
     border-radius: 5px;
     color: #FFFFFF !important;
     display: inline-block;
@@ -36,7 +36,7 @@ a{
     margin: 0px 20px 0px 0px;
 }
 .fillBtn:hover{
-    background: #faa61b;
+    background: #3db5e5;
     color: #FFFFFF;
     text-decoration: none;
 }
@@ -58,8 +58,8 @@ a{
     color: #ffffff !important;
 }
 .borderedBtn:hover{
-    border: 2px solid #e69215;
-    color: #e69215 !important;
+    border: 2px solid #25a9de;
+    color: #25a9de !important;
     text-decoration: none;
 }
 .text-26{
@@ -80,7 +80,7 @@ font-size: 26px;
 }
 .sub_section h2:after {
     content: "";
-    border-bottom: 3px solid #fbb849;
+    border-bottom: 3px solid #25a9de;
     width: 10%;
     display: block;
     margin: 0 auto;
@@ -108,4 +108,10 @@ li::marker {
     content: url(/assets/image/tick.svg);
     margin: 0px 15px 0px 0px;
 }
+.bg-img {
+    background-image: url(./assets/image/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 `;

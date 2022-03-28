@@ -12,11 +12,10 @@ const header = () => {
                     <Container>
                         <Navbar.Brand href="/">
                             <img
-                                src="./assets/image/logo.svg"
-                                width="160"
+                                src="./assets/image/risecloud.svg"
                                 height="55"
-                                className="d-inline-block "
-                                alt="React Bootstrap logo"
+                                className="d-inline-block"
+                                alt="RiseCloud"
                             /></Navbar.Brand>
                         <Navbar.Toggle aria-controls="basic-navbar-nav" />
                         <Navbar.Collapse id="basic-navbar-nav">

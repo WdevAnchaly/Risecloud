@@ -9,17 +9,14 @@ const Style = styled.article`
     margin: 0 auto;
     ${'' /* padding : 5px 0; */}
 }
-.header{
-background:header;
-color: ;
-}
+
 .navbar{
     padding :0 !important;
 }
 a.header-btn {
     padding: 6px 20px;
     font-size: 12px;
-    background-color: #fbb849;
+    background-color: #25a9de;
     border-radius: 3px;
     color: #FFFFFF !important;
     display: inline-block;
@@ -30,7 +27,7 @@ a.header-btn {
     white-space: pre;
 }
 a.header-btn:hover {
-background: #faa61b;
+background: #3db5e5;
     color: #FFFFFF;
     text-decoration: none;
 }
@@ -126,6 +123,13 @@ li.small-text:hover{
 .cm-e-menu li.divider:hover {
 	background-color: transparent;
 }
-
+.navbar {
+    padding: 5px !important;
+}
+li.topmenu:after {
+    content: "\f107";
+    font-family: 'font-Awesome';
+    padding-left: 5px;
+}
 `;
 export default Style;

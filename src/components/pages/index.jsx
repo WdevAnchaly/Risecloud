@@ -68,7 +68,7 @@ const Index = () => {
         </section>
 
         <section>
-          <div className='bg-drk'>
+          <div className='bg-img'>
             <div className='container'>
               <div className="row pt-4 pb-4">
                 <div className="col-lg-6 col-sm-6 col-12 w-50">
