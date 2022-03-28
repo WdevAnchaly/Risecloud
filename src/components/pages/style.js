@@ -23,6 +23,7 @@ a{
     font-family: 'Inter', sans-serif;
 }
 .fillBtn{
+    border:#25a9de;
     background-color: #25a9de;
     border-radius: 5px;
     color: #FFFFFF !important;
@@ -84,6 +85,13 @@ font-size: 26px;
     width: 10%;
     display: block;
     margin: 0 auto;
+    margin-top: 12px;
+}
+.sub_section h4:after {
+    content: "";
+    border-bottom: 3px solid #25a9de;
+    width: 80px;
+    display: block;
     margin-top: 12px;
 }
 .w-32{

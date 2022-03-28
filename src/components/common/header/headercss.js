@@ -67,6 +67,10 @@ a:after {
 ${'' /* .cm-e-menu li:hover {
 	background-color: #3d3d3d;
 } */}
+.cm-e-menu ul li.topmenu a{
+	color:#fff;
+	text-decoration:none;
+}
 .cm-e-menu ul li.topmenu {
 	display: inline-table;
     text-transform: uppercase !important;
@@ -91,6 +95,9 @@ ${'' /* .cm-e-menu li:hover {
     text-transform: capitalize !important;
 	border : .6px solid #ccc;
 	background:#fff;
+}
+.cm-e-menu ul.submenu li a {
+	color:#000;
 }
 .cm-e-menu ul.submenu li:hover{
 background :#e8e8e8;
@@ -128,7 +135,7 @@ li.small-text:hover{
 }
 li.topmenu:after {
     content: "\f107";
-    font-family: 'font-Awesome';
+    font-family:FontAwesome;
     padding-left: 5px;
 }
 `;
