@@ -142,7 +142,7 @@ const header = () => {
                                                 </li>
                                             </ul>
                                         </li>
-                                        <li className="topmenu"><a>Contact</a></li>
+                                        <li className="topmenu"><Link to='/contact'>Contact</Link></li>
 
                                     </ul>
                                 </Dropdown>
