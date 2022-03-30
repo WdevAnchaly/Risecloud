@@ -121,5 +121,9 @@ li::marker {
     background-repeat: no-repeat;
     background-size: cover;
 }
+.bg-img .borderedBtn:hover{
+    border: 2px solid #ffffff;
+    color: #ffffff !important;
+}
 
 `;
