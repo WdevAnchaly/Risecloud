@@ -11,11 +11,11 @@ const Index = () => {
             <div className="row pb-4 pt-2 align-items-center">
               <div className="col-lg-7 col-sm-7 col-12">
                 <div className="hero_content">
-                  <h1 className="page_title">Magento Hosting Managed, Flexible, Fast, and Secure</h1>
-                  <span>Page Load Time under 0.3 seconds!</span>
+                  <h1 className="page_title">Never Pay For Magento Tech Support</h1>
+                  <span>Get a Host Who dose that for you !!</span>
                   <div className="hero_btn d-flex pt-3 pb-lg-0 pb-5">
                     <Link to='/' className="fillBtn "> Get Started Today!</Link>
-                    <Link to='/' className="borderedBtn "> Free Demo</Link>
+                    <Link to='/' className="borderedBtn "> Ask Question</Link>
                   </div>
                 </div>
               </div>
@@ -36,33 +36,34 @@ const Index = () => {
               </div>
             </div>
             <div className="text-26 text-center pt-1 pb-1">Over 1000+ Happy Customers World Wide</div>
-            <div className="row pt-4 client" >
-              <div className="col-lg-2 col-md-4 col-6 pt-4">
-                <img src="assets/image/client/logo (1).png" className="img-fluid" alt="klimfax" />
+            <div className="row pt-4 client  align-items-center" >
+              <div className="col">
+                <img src="./assets/image/icon/nginx.png" className="img-fluid" alt="nginx" />
               </div>
-
-              <div className="col-lg-2 col-md-4 col-6">
-                <img src="assets/image/client/logo.png" className="img-fluid" alt="Diamond-king-tools" />
+              <div className="col">
+                <img src="./assets/image/icon/RK_FLATIMAGE16.svg" className="img-fluid" alt="varnish" />
               </div>
-
-              <div className="col-lg-2 col-md-4 col-6 pt-4">
-                <img src="assets/image/client/brown.svg" className="img-fluid" alt="bronxton" />
+              <div className="col">
+                <img src="./assets/image/icon/pngegg.png" className="img-fluid" alt="bronxton" />
               </div>
-
-              <div className="col-lg-2 col-md-4 col-6 awsing">
-                <img src="assets/image/client/fkf-h.svg" className="img-fluid" alt="fashionkafatka" />
+              <div className="col">
+                <img src="./assets/image/icon/cloudfare.webp" className="img-fluid" alt="cloude-fare" />
               </div>
-
-              <div className="col-lg-2 col-md-4 col-6">
-                <img src="assets/image/client/Prime-solutions.png" className="img-fluid" alt="Prime-solutions" />
+              <div className="col">
+                <img src="./assets/image/icon/elasticsearch.svg" className="img-fluid" alt="elasticsearch" />
               </div>
-
-              <div className="col-lg-2 col-md-4 col-6 awsing">
-                <img src="assets/image/client/logo_2.png" className="img-fluid" alt="" />
+              <div className="col">
+                <img src="./assets/image/icon/php.png" className="img-fluid" alt="php" />
               </div>
-
-
-
+              <div className="col">
+                <img src="./assets/image/icon/new-relic.png" className="img-fluid" alt="new-relic.png" />
+              </div>
+              <div className="col">
+                <img src="./assets/image/icon/phpfpm.png" className="img-fluid m-0" alt="phpfpm" />
+              </div>
+              <div className="col">
+                <img src="./assets/image/icon/RK_FLATIMAGE14.svg" className="img-fluid" alt="radis" />
+              </div>
             </div>
           </div>
         </section>
@@ -96,14 +97,14 @@ const Index = () => {
               <div className="col-lg-3 col-sm-3 col-12">
                 <div className='card_detail'>
                   <img src="./assets/image/RK_ICON06.svg" className='w-32 pb-4' alt="Performance" />
-                  <h4>Performance</h4>
+                  <h4>Magento 2 Support</h4>
                   <p className='p-3'>The MGT High-Performance Stack provides page load times under 0.3 sec.</p>
                 </div>
               </div>
               <div className="col-lg-3 col-sm-3 col-12">
                 <div className='card_detail'>
                   <img src="./assets/image/RK_ICON09.svg" className='w-25 pb-4' alt="Security" />
-                  <h4>Security</h4>
+                  <h4>Cloud Hosting & Security</h4>
                   <p className='p-3'>For high security, we offer VPN, DDoS attack protection, the AWS WAF web application firewall.</p>
                 </div>
               </div>
@@ -117,7 +118,7 @@ const Index = () => {
               <div className="col-lg-3 col-sm-3 col-12">
                 <div className='card_detail'>
                   <img src="./assets/image/RK_ICON08.svg" className='w-50 pb-3' alt="Flexible" />
-                  <h4>Flexible</h4>
+                  <h4>Magento 3rd Party Support</h4>
                   <p className='p-3'>With AWS, you stay flexible. Based on your demands, we scale up, down, or change resources.</p>
                 </div>
               </div>
@@ -128,23 +129,21 @@ const Index = () => {
         <section>
           <div className="container">
             <div className='text-center sub_section'>
-              <h2>Why choose our service ?</h2>
+              <h2>Why choose RiseCloud ?</h2>
             </div>
             <div className="row  pt-5 pb-5">
               <div className="col-12 ">
                 <ul className="nav nav-pills mb-5" id="pills-tab" role="tablist">
                   <li className="nav-item" role="presentation">
-                    <button className="nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">Performance</button>
+                    <button className="nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">Magento Support</button>
                   </li>
                   <li className="nav-item" role="presentation">
                     <button className="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">Security</button>
                   </li>
                   <li className="nav-item" role="presentation">
-                    <button className="nav-link" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">Magento Lavel Experts</button>
+                    <button className="nav-link" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">Performance</button>
                   </li>
-                  <li className="nav-item" role="presentation">
-                    <button className="nav-link" id="pills-tech-tab" data-bs-toggle="pill" data-bs-target="#pills-tech" type="button" role="tab" aria-controls="pills-tech" aria-selected="false">Latest Hosting Technology</button>
-                  </li>
+                  
                 </ul>
                 <div className="tab-content" id="pills-tabContent">
                   <div className="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
@@ -153,15 +152,15 @@ const Index = () => {
                         <img src="./assets/image/RK_01.svg" alt="performance" className="img-fluid" />
                       </div>
                       <div className="col-lg-8">
-                        <h4>Performance</h4>
-                        <p>MGT-Commerce stands for high performance with a page load time under 0.3 seconds. Studies show that even 100 milliseconds of latency can cost you 1% in sales.</p>
-                        <p>Faster page load times result in higher site ranking and conversions.</p>
+                        <h4>Magento Support</h4>
+                        {/* <p>MGT-Commerce stands for high performance with a page load time under 0.3 seconds. Studies show that even 100 milliseconds of latency can cost you 1% in sales.</p>
+                        <p>Faster page load times result in higher site ranking and conversions.</p> */}
 
                         <ul>
-                          <li> Lightweight components</li>
-                          <li>Redis and Varnish Cache</li>
-                          <li>Latest hardware innovations</li>
-                          <li>Global CDN</li>
+                          <li>Magento 2 Support</li>
+                          <li>Magento 2 third party Extension Support </li>
+                          <li>Over 50+ free extension to choose free and </li>
+                          <li>Backed by Adobe Certified Engineers </li>
                         </ul>
                       </div>
                     </div>
@@ -173,56 +172,42 @@ const Index = () => {
                       </div>
                       <div className="col-lg-8">
                         <h4>Security</h4>
-                        <p>We help you to protect your shop. The web application firewall filters all bad traffic.</p>
-                        <p>For high security, we offer DDoS protection. The data center of AWS is Dfully PCI-compliant.</p>
+                        <p>We help you keep your magento store upto date ,auto update options available after 15 days of stable release .</p>
+                        <p>We work with cloudflare to save hosting cost and a better layer of security .</p>
 
                         <h6>Features:</h6>
                         <ul>
-                          <li> MGT WAF - Web Application Firewall</li>
                           <li>DDoS protection</li>
                           <li>SSL Encryption</li>
                           <li>VPN</li>
-                          <li>Free SSL certificate</li>
+                          <li>SSL Certification</li>
                           <li> PCI certified</li>
-                          <li>Hourly backups</li>
+                          <li>Daily Backups </li>
                         </ul>
                       </div>
                     </div>
                   </div>
                   <div className="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab"><div className='row'>
                     <div className="col-lg-4">
-                      <img src="./assets/image/RK_02.svg" alt="performance" className="img-fluid" />
+                      <img src="./assets/image/RK_01.svg" alt="performance" className="img-fluid" />
                     </div>
                     <div className="col-lg-8">
-                      <h4>Magento Experts</h4>
-                      <p>To run a Magento, you need experts who know everything. We help fast to resolve technical problems. We are experts in online store applications and Infrastructure.
-                        With more than +12 years of experience, we can help fast with whatever you need.</p>
+                      <h4>Performance</h4>
+                      {/* <p>To run a Magento, you need experts who know everything. We help fast to resolve technical problems. We are experts in online store applications and Infrastructure.
+                        With more than +12 years of experience, we can help fast with whatever you need.</p> */}
 
                       <ul>
-                        <li> 24/7/365 support</li>
-                        <li>Response time under 15 minutes</li>
-                        <li>Magento code level knowledge</li>
+                          <li> RiseCloud offer high performance with a page load time under  0.3 Second</li>
+                        <li> Faster page load time result higher sales conversation and SEO Rating </li>
+                        <li>lightweight components</li>
+                        <li>Varnish cache and redis DataBase caching</li>
+                        <li>Latest hardware and innovations</li>
+                        <li>Globle CDN + Cloudfare</li>
                       </ul>
                     </div>
                   </div>
                   </div>
-                  <div className="tab-pane fade" id="pills-tech" role="tabpanel" aria-labelledby="pills-tech-tab"><div className='row'>
-                    <div className="col-lg-4">
-                      <img src="./assets/image/RK_04.svg" alt="performance" className="img-fluid" />
-                    </div>
-                    <div className="col-lg-8">
-                      <h4>Latest Hosting Technology</h4>
-                      <p>Magento hosting plans on AWS covers all requirements. With AWS, you always get the newest hosting innovations.</p>
-
-                      <ul>
-                        <li>  AWS Graviton2</li>
-                        <li>Auto Scaling</li>
-                        <li>AWS Web Application Firewall</li>
-                        <li> AWS RDS</li>
-                      </ul>
-                    </div>
-                  </div>
-                  </div>
+                  
                 </div>
               </div>
             </div>
@@ -772,13 +757,13 @@ const Index = () => {
           <div className="container">
             <div className="row">
               <div className="col pb-4 pt-3">
-              <div className="pb-3"><h4>Frequently Asked Questions</h4></div>
-              <h5>What is Managed Magento Hosting?</h5>
-              <p>Managed Magento hosting is a hosting plan and dedicated server stack that offers solutions for your Magento requirements. It has all the updated essential services that Magento DevDocs recommend.</p>
-               <h5>Is Magento Hosting Cloud-Based?</h5>
-               <p>Yes, the Magento Cloud uses AWS virtualization. If you opt for Adobe Commerce, you can choose any data center to host your servers.</p>
-               <h5>Why Choose MGT-COMMERCE for Magento 2 Hosting?</h5>
-               <p>MGT-COMMERCE is your perfect managed Magento hosting partner as it delivers a wide range of services, including test environment, Magento development tools, PCI compliant hosting, autoscaling, and unique Magento extensions. Our +12 years of experience combined with 24/7/365 technical support, flexible infrastructure on AWS, and highly secure solutions gives optimal performance to customers around the globe.</p>
+                <div className="pb-3"><h4>Frequently Asked Questions</h4></div>
+                <h5>What is Managed Magento Hosting?</h5>
+                <p>Managed Magento hosting is a hosting plan and dedicated server stack that offers solutions for your Magento requirements. It has all the updated essential services that Magento DevDocs recommend.</p>
+                <h5>Is Magento Hosting Cloud-Based?</h5>
+                <p>Yes, the Magento Cloud uses AWS virtualization. If you opt for Adobe Commerce, you can choose any data center to host your servers.</p>
+                <h5>Why Choose MGT-COMMERCE for Magento 2 Hosting?</h5>
+                <p>MGT-COMMERCE is your perfect managed Magento hosting partner as it delivers a wide range of services, including test environment, Magento development tools, PCI compliant hosting, autoscaling, and unique Magento extensions. Our +12 years of experience combined with 24/7/365 technical support, flexible infrastructure on AWS, and highly secure solutions gives optimal performance to customers around the globe.</p>
               </div>
             </div>
           </div>
