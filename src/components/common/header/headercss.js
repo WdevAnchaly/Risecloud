@@ -25,6 +25,7 @@ a.header-btn {
     text-transform: uppercase;
     transition: all 0.2s ease-in-out 0s;
     white-space: pre;
+	text-align:center;
 }
 a.header-btn:hover {
 background: #3db5e5;
@@ -50,7 +51,7 @@ a:after {
     font-weight: 400;
 	}
 .cm-e-menu ul {
-	margin: 0; padding: 0;
+	margin: 0;
 }
 .cm-e-menu li {
 	position: relative;
@@ -74,7 +75,7 @@ ${'' /* .cm-e-menu li:hover {
 .cm-e-menu ul li.topmenu,li.topmenu1 {
 	display: inline-table;
     text-transform: uppercase !important;
-	padding: 1.3em 2em;
+	padding: 1.3em 3.5em 1.3em 2em;
 }
 ul li.topmenu:hover,ul li.topmenu1:hover {
 background:#101010;
@@ -93,8 +94,7 @@ background:#101010;
 	 left: 0;
 	 z-index: 1005;
     width: 100%;
-	padding-top: .5em;
-	padding-bottom: .5em;	
+	padding: 0.5px;
     text-transform: capitalize !important;
 	border : .6px solid #ccc;
 	background:#fff;
@@ -134,18 +134,76 @@ li.small-text:hover{
 	background-color: transparent;
 }
 
-li.topmenu:after {
+${'' /* li.topmenu:after {
     content: "";
     font-family: FontAwesome;
     padding-left: 10px;
     margin-left: 8px;
     background: url(./assets/image/icon/down.svg) no-repeat right center;
+} */}
+li.topmenu >a:after {
+    content: "\f107";
+    font-family: FontAwesome;
+    right: 35px;
+    font-size: 19px;
+    position: absolute;
+    text-align: center;
+    padding-right: 10px;
 }
-.sub-head:after{
+.sub-head > a:before{
     content: "\f105";
     font-family: FontAwesome;
 	right: 15px;
     position: absolute;
+}
+
+
+@media (max-width: 991px) {
+	.cm-e-menu ul li.topmenu, li.topmenu1 {
+    display: list-item;
+    padding: 1em 0em;
+	margin-left: -10px;
+}
+li.topmenu1 {
+	padding: 1em 0em;
+}
+.cm-e-menu ul.submenu{
+position: inherit;
+background: #3a3f41;
+border:none;
+z-index:1031;
+
+}
+.cm-e-menu ul.submenu li{
+	color:#fff;
+}
+.cm-e-menu ul.submenu li a{
+	color:#fff;
+}
+.sub-head > a:before{
+    content: "\f105";
+    font-family: FontAwesome;
+	right: 15px;
+    position: absolute;
+}
+.sub-head > a:before{
+    content: "\f107";
+    font-family: FontAwesome;
+	right: 15px;
+    position: absolute;
+}
+.cm-e-menu ul.submenu li:hover {
+    background:  #3a3f41;
+}
+.cm-e-menu ul.submenu .submenu {
+    top: 0;
+    position: inherit;
+    left: 0;
+    background: none;
+}
+ul li.topmenu:hover,ul li.topmenu1:hover {
+background:#10101000;
+}
 }
 `;
 export default Style;

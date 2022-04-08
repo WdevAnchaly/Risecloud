@@ -37,6 +37,14 @@ const Contact = () => {
                                         </select>
                                     </div>
                                 </div>
+                                <div className="mt-2 mb-4">
+                                <select className="form-select form-control" aria-label=".form-select-lg example">
+                                            <option defaultValue>Type of Request:</option>
+                                            <option value="General">General</option>
+                                            <option value="Sales">Sales</option>
+                                            <option value="Support">Support</option>
+                                        </select>
+                                </div>
                                 <div className=" pb-5 mt-2">
                                     <textarea className="form-control" placeholder="Leave a comment here" id="floatingTextarea2" rows={5} cols={5}></textarea>
                                 </div>

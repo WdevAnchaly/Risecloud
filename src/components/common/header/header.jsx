@@ -23,7 +23,7 @@ const header = () => {
                             <Nav className="me-auto">
                                 {/* <Nav.Link href="#home">Cloud Hosting </Nav.Link>
                                 <Nav.Link href="#link">Tools </Nav.Link> */}
-                                <Dropdown className="cm-e-menu">
+                                <div className="cm-e-menu">
                                     <ul>
                                         <li className="topmenu">
                                             <a>Cloud Hosting</a>
@@ -169,10 +169,10 @@ const header = () => {
                                         <li className="topmenu1"><Link to='/contact'>Contact</Link></li>
 
                                     </ul>
-                                </Dropdown>
+                                </div>
 
                             </Nav>
-                            <Nav>
+                            <Nav className='pb-lg-0 pb-5'>
                                 <Link to="/" className='header-btn'>Cloud Hosting </Link>
                             </Nav>
                         </Navbar.Collapse>

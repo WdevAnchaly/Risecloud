@@ -98,7 +98,7 @@ font-size: 26px;
     width:33%;
 }
 li::marker {
-    color: #faa61b;
+    color:#25a9de;;
 }
 .feature-list ul li{
     list-style: none;
@@ -124,6 +124,14 @@ li::marker {
 .bg-img .borderedBtn:hover{
     border: 2px solid #ffffff;
     color: #ffffff !important;
+}
+.col.client-img img {
+    height: 80px;
+    margin-right: 59px;
+
+}
+.form-select {
+    color: #6c757d !important;
 }
 
 `;
